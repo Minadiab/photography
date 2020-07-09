@@ -937,6 +937,34 @@ a {
     background-image: url(../images/slider/slider-5.jpg);
   }
 }
+.slider .glide__track .glide__slides .glide__slide .slide__image .bg-image--6 {
+  background-image: url(../images/slider/slider-m-6.jpg);
+  background-position: 50%;
+}
+@media (min-width: 992px) {
+  .slider
+    .glide__track
+    .glide__slides
+    .glide__slide
+    .slide__image
+    .bg-image--6 {
+    background-image: url(../images/slider/slider-6.jpg);
+  }
+}
+.slider .glide__track .glide__slides .glide__slide .slide__image .bg-image--7 {
+  background-image: url(../images/slider/slider-m-7.jpg);
+  background-position: 50%;
+}
+@media (min-width: 992px) {
+  .slider
+    .glide__track
+    .glide__slides
+    .glide__slide
+    .slide__image
+    .bg-image--7 {
+    background-image: url(../images/slider/slider-7.jpg);
+  }
+}
 .slider .glide__arrows .glide__arrow {
   position: absolute;
   display: block;
