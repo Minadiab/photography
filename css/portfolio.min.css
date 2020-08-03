@@ -642,6 +642,8 @@ a {
     grid-row: span 2;
     grid-column: span 2;
   }
+.grid__item--39 {
+  grid-column: 1/-1;
 }
 
 .grid__item.portrait {
