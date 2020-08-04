@@ -1,12 +1,23 @@
 /* eslint-disable require-jsdoc */
 // extention set up
 document.addEventListener("DOMContentLoaded", function () {
+  const getInTouch = document.querySelector('#getInTouch');
+
   if (window.innerWidth > 992) {
-    OverlayScrollbars(document.querySelectorAll("body"), {
+
+    var instance = OverlayScrollbars(document.querySelectorAll("body"), {
       scrollbars: {
         autoHide: 's',
       },
     });
+
+    getInTouch.style.cursor = 'pointer';
+
+    getInTouch.addEventListener('click', () => {
+      instance.scroll(document.getElementById("form-container"), 500);
+    });
+  } else {
+    getInTouch.href = '#form-container';
   }
 });
 
